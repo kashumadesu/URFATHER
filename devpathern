@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device=-width, initial-scale=1.0">
+<title>Pathern</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="header">
+<nav>
+<a href="taco.html"><img src="img/logo.png" width="110px" height=" 100px"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="#Services">SERVICES</a></li> 
+<li><a href="#blog">INFOMERCIAL</a></li> 
+<li><a href="#contact">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+<h1>Journey Beyond Boundaries </h1>
+<p>Your Gateway to Unforgettable Student Adventures</p>
+<a href="" class="hero-btn">Click  to Start  your Journey</a>
+</div>
+</section>
+<!------Services---->
+<section id="Services">
+<h1>SERVICES</h1>
+<h3>Our planner is a comprehensive tool designed to assist students in organizing and optimizing their travel experiences. It goes beyond the traditional aspects of booking flights and accommodations, focusing on maximizing time, managing expenses, and ensuring a smooth and well-prepared journey. With our planner, students can create detailed itineraries that prioritize their preferences, making the most of their travel time and opportunities. It helps them identify key attractions, plan activities, and allocate time efficiently, ensuring a well-rounded and fulfilling experience.</h3>
+	 <div class="row">
+		<div class="blog-col">
+			<img src="img/img7.png" width='250px'>
+				<div class="layer">
+					<h3>Because</h3>
+				</div>
+			</div>	
+		<div class="blog-col">
+			<img src="img/img6.png" width='250px'>
+				<div class="layer">
+					<h3>The Lists</h3>
+				</div>
+		</div>
+		<div class="blog-col">
+			<img src="img/img4.png" width='250px'>
+				<div class="layer">
+					<h3>Travel</h3>
+				</div>	
+		</div>
+		
+	</div>
+</section>
+<section id="product3">
+<div class="row3">
+<div class="product-col3">
+     <h3>Because</h3>
+	 <p>In this sheet, you will list everything you want to accomplish and why. For instance, what would you want to do there if you were to visit a particular country?</p>
+</div>
+<div class="product-col3">
+     <h3>The List</h3>
+	 <p>In this section of the planner, It encompasses your individual's intentions and aspirations. It serves as your personal inventory of your desired activities and pursuits,Where you can write your experiences through your travel.</p>
+</div>
+<div class="product-col3">
+     <h3>Travel</h3>
+	 <p>You can put here the places you plan to visit, for example, where the place itself is, what kind of transportation you will use, and your budget.p>
+</div>
+</div>
+</section>
+<section id="Services2">	
+	<div class="row2">
+	<div class="blog-col2">
+			<img src="img/img5.png" width='250px'>
+				<div class="layer2">
+					<h3>Experiences</h3>
+				</div>
+			</div>	
+		<div class="blog-col2">
+			<img src="img/img3.png" width='250px'>
+				<div class="layer2">
+					<h3>Books</h3>
+				</div>
+		</div>
+		<div class="blog-col2">
+			<img src="img/img2.png" width='250px'>
+				<div class="layer2">
+					<h3>Bucket List</h3>
+				</div>	
+		</div>
+</section>
+<section id="product3">
+<div class="row3">
+<div class="product-col3">
+     <h3>Experiences</h3>
+	 <p>In this section of the planner, It encompasses your individual's intentions and aspirations. It serves as your personal inventory of your desired activities and pursuits,Where you can write your experiences through your travel.</p>
+</div>
+<div class="product-col3">
+     <h3>Books</h3>
+	 <p>In this part of a planner, you can put a mark according to the books that you want to or you will read while traveling</p>
+	 
+</div>
+<div class="product-col3">
+     <h3>Bucket List</h3>
+	 <p>In this section of the planner, you can jot down important details and notes for your travel preparations. It serves as a handy reference for organizing your trip and ensuring a smooth travel experience. You can list down essential information such as booking confirmations, contact numbers, and any specific requirements for your journey. Additionally, you can use this space to take notes about things you need to pack, any travel tips you come across, or any special considerations for your destination.</p>
+</div>
+</div>
+</section>
+<!----- course ----->
+<section id="blog">
+      <h1>Our Service Will Start your Amazing Journey!</h1>	  
+	  <p>    </p>
+<video class="videoborder" width="700" autoplay muted>
+  <source src="pathern.mp4" type="video/mp4">
+</video>
+</section>
+<!-------contact------->
+<section id="contact">
+	<h1>Contact Us To Start The Fun</h1>
+</section>
+<!------Footer ----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>For Booking and Reservations You Can Reach Out Thru Our Social Media Accounts</p>
+	<div class="icons">
+	<a href="#"><i class="fab fa-facebook"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+	
+	<ul class="list">
+		<li>
+			<a href="#">Terms</a>
+		</li>
+		<li>
+			<a href="#">Privacy Policy</a>
+		</li>
+		<li>
+			<a href="#">Services</a>
+		</li>
+	</ul>
+	<p class="copyright">
+		Pathern @ 2023
+	</p>
+</section>	
+
+<button class="scrollup" id="scroller">^</button>
+
+<!-----javasrpt------>
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+     navLinks.style.right = "0";
+}
+function hideMenu(){
+     navLinks.style.right = "-200px";
+}
+
+var scrollup = document.getElementById("scroller");
+
+scrollup.addEventListener("click", () => {
+	window.scroll({ top: 0, behavior: "smooth" });
+});
+</script>
+
+</body>
+</html>
